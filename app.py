@@ -9,7 +9,7 @@ def index():
 
 @app.route('/hello', methods=['GET'])
 def hello():
-    return jsonify({'message': 'Hello from Flask API!'})
+    return jsonify({'message': 'Hello dear from Flask API!'})
 
 @app.route('/add', methods=['POST'])
 def add():
